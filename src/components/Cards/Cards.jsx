@@ -5,7 +5,6 @@ import cx from 'classnames';
 import CountUp from 'react-countup';
 
 const Cards = ({ data : { confirmed, recovered, deaths, lastUpdate }}) => { 
-    console.log(recovered)
    if(!confirmed || !recovered || !deaths ){
        return 'Loading...'
    }
